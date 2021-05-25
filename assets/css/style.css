@@ -76,8 +76,8 @@
 .home__video video{
     position: fixed;
     top: 45%;
-    left: 58%;
-    width: 30vw;
+    left: 60%;
+    width: 25vw;
     border: 2px solid #FFB320;
 }
 .home .home__content{
@@ -163,7 +163,7 @@
         font-size: 40px;
     }
     .home .home__content .home_text__2{
-        font-size: 30px;
+        font-size: 25px;
     }
 }
 
