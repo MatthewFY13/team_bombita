@@ -61,3 +61,48 @@
     cursor: pointer;
     display: none;
 }
+@media (max-width: 1000px){
+    .max-width {
+        padding: 0 30px;
+    }
+    .nav_bar__menu{
+        display: block;
+        z-index: 2;
+    }
+    .nav_bar__menu i.active:before{
+        content: "\f00d";
+    }
+    .nav_bar .nav_bar__ul{
+        position: fixed;
+        height: calc(100vh - 70px);
+        width: 100%;
+        left: -100%;
+        top: 100px;
+        background: #444;
+        text-align: center;
+        padding-top: 70px;
+        flex-direction: column;
+        transition: all 0.3s ease;
+    }
+    .nav_bar .nav_bar__ul.active{
+        left: 0;
+    }
+    .nav_bar .nav_bar__ul .nav_bar__li{
+        display: block;
+    }
+    .nav_bar .nav_bar__ul .nav_bar__li:hover{
+        background: none;
+    }
+    .nav_bar .nav_bar__ul .nav_bar__li a{
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    }
+    .nav_bar .nav_bar__ul .nav_bar__li a:hover{
+        color: #FFB320;
+        font-size: 40px;
+    }
+    .nav_bar .nav_bar__ul .nav_bar__li .nav_bar__li__btn:hover{
+        font-size: 25px;
+    }
+}
