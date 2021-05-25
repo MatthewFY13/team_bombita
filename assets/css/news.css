@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.max-width {
+    max-width: 1300px;
+    padding: 0 150px;
+    margin: 0px;
+}
+.nav_bar {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    padding: 12px 0;
+    background: #000000;
+    border-bottom: 2px solid #FFB320;
+    user-select: none;
+}
+.nav_bar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav_bar .nav_bar__ul {
+    display: flex;
+    list-style: none;
+    margin-right: -10px;
+}
+.nav_bar .nav_bar__ul .nav_bar__li {
+    border-radius: 15px;
+    margin: 0 10px;
+}
+.nav_bar .nav_bar__ul .nav_bar__li .nav_bar__li__btn {
+    border: 1px solid #7289DA;
+    border-radius: 10px;
+    background: #7289dacb;
+    color: #fff;
+}
+.nav_bar .nav_bar__ul .nav_bar__li .nav_bar__li__btn:hover{
+    color: #fff;
+}
+.nav_bar .nav_bar__ul .nav_bar__li a {
+    padding: 7px 13px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+.nav_bar .nav_bar__ul .nav_bar__li a:hover {
+    color: #FFB320;
+}
+/* Nav_bar_Phone */
+.nav_bar__menu {
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+}
