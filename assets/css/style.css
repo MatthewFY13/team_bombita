@@ -118,8 +118,8 @@
         height: calc(100vh - 70px);
         width: 100%;
         left: -100%;
-        top: 100px;
-        background: #444;
+        top: 84px;
+        background: rgb(99, 40, 40);
         text-align: center;
         padding-top: 70px;
         flex-direction: column;

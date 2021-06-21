@@ -111,8 +111,8 @@ section .about__title
         height: calc(100vh - 70px);
         width: 100%;
         left: -100%;
-        top: 85px;
-        background: #444;
+        top: 84px;
+        background: rgb(99, 40, 40);
         text-align: center;
         padding-top: 80px;
         flex-direction: column;
