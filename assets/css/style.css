@@ -21,7 +21,19 @@
 }
 .loader img{
     width: 200px;
+    animation: animat 1s ease;
 }
+
+@keyframes animat {
+    0%{
+        transform: scale(1);
+    }50%{
+        transform: scale(0);
+    }100%{
+        transform: scale(0);
+    }
+}
+
 
 .max-width {
     max-width: 1300px;
