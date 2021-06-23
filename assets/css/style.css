@@ -21,16 +21,22 @@
 }
 .loader img{
     width: 200px;
-    animation: animat 1s ease;
+    animation: animat 1s ease-in;
 }
 
 @keyframes animat {
     0%{
+        transform: scale(2);
+    }20%{
+        transform: scale(2);
+    }40%{
         transform: scale(1);
     }50%{
-        transform: scale(0);
+        transform: scale(1);
+    }70%{
+        transform: scale(1);
     }100%{
-        transform: scale(0);
+        transform: scale(1);
     }
 }
 
